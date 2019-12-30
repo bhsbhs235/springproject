@@ -13,8 +13,7 @@ targetCompatibility = '1.8'
 buildDir = 'build'
 
 jar{
-	baseName = "springproject"
-	version = "0.0.1-SNAPSHOT"
+	archiveName = 'springproject-0.0.1-SNAPSHOT.jar'
 }
 
 configurations {
