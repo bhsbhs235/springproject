@@ -17,6 +17,11 @@ jar{
 	version = "0.0.1-SNAPSHOT"
 }
 
+bootJar{
+	archiveBaseName="springproject"
+	archiveFileName=".jar"
+	archiveVersion="0.0.1-SNAPSHOT"
+}
 configurations {
 	developmentOnly
 	runtimeClasspath {
