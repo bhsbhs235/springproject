@@ -18,7 +18,7 @@ jar{
 }
 
 war{
-	enabled = true
+	//enabled = true
 	baseName = "springproject1"
 	version = "0.0.1-SNAPSHOT"
 }
