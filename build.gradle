@@ -18,7 +18,7 @@ jar{
 }
 
 bootJar{
-	archiveBaseName="springproject"
+	archiveBaseName="springprojectbootJar"
 	archiveVersion="0.0.1-SNAPSHOT"
 }
 
