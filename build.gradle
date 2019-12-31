@@ -45,8 +45,7 @@ repositories {
 }
 
 dependencies {
-//	compile 'org.apache.tomcat.embed:tomcat-embed-jasper'
-	providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
+	compile 'org.apache.tomcat.embed:tomcat-embed-jasper'
 	compile 'javax.servlet:jstl:1.2'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	compileOnly 'org.projectlombok:lombok'
