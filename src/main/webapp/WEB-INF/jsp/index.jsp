@@ -7,5 +7,6 @@
 </head> 
 <body> 
     <img src="resources/img/welcome.jpg">
+    <p>재가동 성공!!!!</p>
 </body> 
 </html>
