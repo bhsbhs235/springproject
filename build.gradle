@@ -18,18 +18,18 @@ jar{
 	version = "0.0.1-SNAPSHOT"
 }
 
-/*
+
 bootJar{
-	archiveBaseName="springprojectbootJar"
+	archiveBaseName="springproject"
 	archiveVersion="0.0.1-SNAPSHOT"
 }
-*/
+
 
 bootWar{
 	archiveBaseName="springproject"
-	archiveFileName="-.war"
 	archiveVersion="0.0.1-SNAPSHOT"
 }
+
 configurations {
 	developmentOnly
 	runtimeClasspath {
