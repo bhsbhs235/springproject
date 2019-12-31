@@ -11,24 +11,24 @@ version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '1.8'
 targetCompatibility = '1.8'
 
-buildDir = 'build'
-
 jar{
+	enabled = true
 	baseName = "springproject"
 	version = "0.0.1-SNAPSHOT"
 }
 
-
+/*
 bootJar{
 	archiveBaseName="springproject"
 	archiveVersion="0.0.1-SNAPSHOT"
 }
-
-
+*/
+/*
 bootWar{
 	archiveBaseName="springproject"
 	archiveVersion="0.0.1-SNAPSHOT"
 }
+*/
 
 configurations {
 	developmentOnly
