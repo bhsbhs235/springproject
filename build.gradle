@@ -1,6 +1,6 @@
 plugins {
 	id 'java'
-	//id 'war'
+	id 'war'
 	id 'eclipse'
 	id 'org.springframework.boot' version '2.1.10.RELEASE'
 	id 'io.spring.dependency-management' version '1.0.8.RELEASE'
@@ -17,6 +17,11 @@ jar{
 	version = "0.0.1-SNAPSHOT"
 }
 
+war{
+	enabled = true
+	baseName = "springproject1"
+	version = "0.0.1-SNAPSHOT"
+}
 
 bootJar{
 	archiveBaseName="springproject2"
