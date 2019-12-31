@@ -11,12 +11,15 @@ version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '1.8'
 targetCompatibility = '1.8'
 
+/*
 jar{
 	enabled = true
 	baseName = "springproject1"
 	version = "0.0.1-SNAPSHOT"
 }
+*/
 
+/*
 war{
 	//enabled = true
 	//baseName = "springproject1"
@@ -24,18 +27,20 @@ war{
 	//version = "0.0.1-SNAPSHOT"
 	archiveVersion = "0.0.1-SNAPSHOT"
 }
-
+*/
+/*
 bootJar{
 	archiveBaseName="springproject2"
 	archiveVersion="0.0.1-SNAPSHOT"
 }
+*/
 
-/*
+
 bootWar{
 	archiveBaseName="springproject"
 	archiveVersion="0.0.1-SNAPSHOT"
 }
-*/
+
 
 configurations {
 	developmentOnly
