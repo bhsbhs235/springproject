@@ -10,7 +10,7 @@
 </head> 
   <body> 
     <pre>
-      <code class="html">
+      <code class="language-html">
         <p> Jquery 잘 써짐 ^^</p>
       </code>
     </pre>
