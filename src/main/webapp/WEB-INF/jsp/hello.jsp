@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%> 
 <!DOCTYPE html> 
-<link rel="stylesheet" href="/css/atom-one-light.css">
-<script src="/path/to/highlight.pack.js"></script>
+<link rel="stylesheet" href="resources/css/atom-one-light.css">
+<script src="resources/js/highlight.pack.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 <html> 
 <head> 
