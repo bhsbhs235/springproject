@@ -6,7 +6,7 @@
 <title>welcome</title> 
 </head> 
 <body> 
-    <img src="resources/img/welcome1.JPG">
+    <img src="resources/img/welcome.JPG">
     <p>docker-compose를 이용한 무중단 배포 성공!!</p>
 </body> 
 </html>
