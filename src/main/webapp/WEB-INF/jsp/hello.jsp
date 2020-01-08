@@ -10,8 +10,8 @@
 </head> 
   <body> 
     <pre>
-      <code class="language-java">
-        hello world
+      <code class="html">
+        <p> Jquery 잘 써짐 ^^</p>
       </code>
     </pre>
   </body> 
