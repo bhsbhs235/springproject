@@ -10,8 +10,23 @@
 </head> 
   <body> 
     <pre>
-      <code class="language-html">
-        <p> Jquery 잘 써짐 ^^</p>
+      <code class="hljs java">
+        /**
+        * @author John Smith <john.smith@example.com>
+       */
+       package l2f.gameserver.model;
+       
+       public abstract class L2Char extends L2Object {
+         public static final Short ERROR = 0x0001;
+       
+         public void moveTo(int x, int y, int z) {
+           _ai = null;
+           log("Should not be called");
+           if (1 > 5) { // wtf!?
+             return;
+           }
+         }
+       }
       </code>
     </pre>
   </body> 
