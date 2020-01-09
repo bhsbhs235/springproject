@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+    nginx:
+        image: nginx:webserver
+        ports: 
+            - "80:80"
+        container_name: nginx_webserver
+        networks:
+            - backend
+
+networks:
+    backend:
+        driver: bridge
