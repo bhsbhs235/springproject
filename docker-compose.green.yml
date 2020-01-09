@@ -5,3 +5,4 @@ services:
         image: bhsbhs235/springproject:0.1
         ports: 
             - "8081:8080"
+        container_name: springproject_green
