@@ -7,4 +7,9 @@ services:
             - "8081:8080"
         container_name: springproject_green
         networks:
-            -backend
+            - backend
+
+
+networks:
+    backend:
+        driver: bridge
