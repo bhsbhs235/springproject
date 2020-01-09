@@ -11,6 +11,10 @@ services:
         ports: 
             - "8082:8080"
         container_name: springproject_blue
-        networks:  
-            external:
-                name: nginx-webserver_backend
+        networks: 
+            - default 
+
+networks:
+    default:
+        external:
+             name: nginx-webserver_backend

@@ -12,5 +12,9 @@ services:
             - "8081:8080"
         container_name: springproject_green
         networks:
-            external:
-                name: nginx-webserver_backend
+            - default
+                      
+networks:
+    default:
+        external:
+            name: nginx-webserver_backend
