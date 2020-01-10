@@ -6,8 +6,8 @@ services:
 #            context: .
 #            dockerfile: Dockerfile_nginx
         image: nginx
-        volumes:
-            - ./nginx/conf.d:/etc/nginx/conf.d
+#        volumes:
+#            - ./nginx/conf.d:/etc/nginx/conf.d
         ports: 
             - "80:80"
         container_name: nginx_webserver
