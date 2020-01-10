@@ -11,10 +11,3 @@ services:
         ports: 
             - "8082:8080"
         container_name: springproject_blue
-        networks: 
-            - default 
-
-networks:
-    default:
-        external:
-             name: bridge
