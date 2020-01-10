@@ -9,3 +9,10 @@ services:
         ports: 
             - "80:80"
         container_name: nginx1
+        networks: 
+            - default 
+
+networks:
+    default:
+        external:
+             name: bridge
