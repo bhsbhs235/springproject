@@ -8,5 +8,6 @@
 <body> 
     <img src="resources/img/welcome.jpg">
     <p>docker-compose를 이용한 무중단 배포 성공!!</p>
+    <img src="resources/img/welcome2.JPG">
 </body> 
 </html>
