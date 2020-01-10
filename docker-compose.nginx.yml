@@ -7,12 +7,9 @@ services:
             dockerfile: Dockerfile_nginx
         image: nginx:webserver
         volumes:
-            - ./nginx.conf:/etc/nginx/nginx.conf:ro
+            - ./nginx/conf.d:/etc/nginx/conf.d
         ports: 
-            - "8080:80"
-        environment: 
-            - NGINX_PORT=80
-            command: [nginx-debug, '-g', 'daemon off;']
+            - "80:80"
         container_name: nginx_webserver
         networks:
             - backend
