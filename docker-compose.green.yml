@@ -2,11 +2,6 @@ version: '3'
 
 services:
     springproject:
-        build: 
-            context: .
-            dockerfile: Dockerfile_springproject
-            args:
-                WAR_FILE: build/libs/springproject-0.0.1-SNAPSHOT.war
         image: bhsbhs235/springproject:0.1
         ports: 
             - "8081:8080"
