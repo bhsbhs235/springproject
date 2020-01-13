@@ -6,4 +6,12 @@ services:
         ports: 
             - "8081:8080"
         container_name: springproject_green
+        networks:
+            - default
+
+networks:
+    default:
+        external:
+            name: nginx_backend
+
  
