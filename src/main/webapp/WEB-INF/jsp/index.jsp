@@ -8,6 +8,26 @@
 <body> 
     <img src="resources/img/welcome.jpg">
     <p>docker-compose를 이용한 무중단 배포 성공!!</p>
-    <img src="resources/img/welcome2.JPG">
-</body> 
+    <span id="date"></span>
+</body>
+<script type="text/javascript">
+    var today = new Date();
+    var dd = today.getDate();
+    var mm = today.getMonth()+1; // Jan is 0
+    var yyyy = today.getFullYear();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+
+    if(dd<10){
+        dd = '0'+dd
+    }
+                            
+    if(mm<10){
+        mm = '0'+mm
+    }
+                            
+    today = yyyy + '-' + mm + '-' + dd + ' ' + h + ':' + m + ':' + s;
+    document.getElementById("date").innerHtml = document.write(today);
+</script>
 </html>
