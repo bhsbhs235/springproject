@@ -8,8 +8,8 @@ services:
         container_name: springproject_green
         build:
             context: .
-            dockerfile: dockerfile
+            dockerfile: Dockerfile
             args:
                 WAR_FILE: build/libs/springproject-0.0.1-SNAPSHOT.war
-
+        image: bhsbhs235/springproject:0.1
  
