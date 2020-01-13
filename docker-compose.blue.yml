@@ -2,7 +2,8 @@ version: '3.7'
 
 services:
     springproject:
-        build: ./dir
+        build:
+            context: .
             dockerfile: Dockerfile
             args:
                 WAR_FILE: build/libs/springproject-0.0.1-SNAPSHOT.war
