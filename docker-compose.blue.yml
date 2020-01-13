@@ -6,10 +6,9 @@ services:
         ports: 
             - "8082:8080"
         container_name: springproject_blue
-        networks: 
-            - backend
-    
-networks:
-    default:
-         external:
-            name: nginx_backend
+        build:
+            context: .
+            dockerfile: dockerfile
+            args:
+                WAR_FILE: build/libs/springproject-0.0.1-SNAPSHOT.war
+                
