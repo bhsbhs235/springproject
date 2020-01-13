@@ -18,7 +18,7 @@
     var h = today.getHours();
     var m = today.getMinutes();
     var s = today.getSeconds();
-
+ 
     if(dd<10){
         dd = '0'+dd
     }
