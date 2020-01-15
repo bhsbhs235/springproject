@@ -26,7 +26,18 @@
     if(mm<10){
         mm = '0'+mm
     }
-                            
+
+    if(h<10){
+        h = '0'+ h
+    }
+
+    if(m<10){
+        m = '0'+m
+    }
+
+    if(s<10){
+        s = '0'+s
+    }                        
     today = yyyy + '-' + mm + '-' + dd + ' ' + h + ':' + m + ':' + s;
     document.getElementById("date").innerHtml = document.write(today);
 </script>
