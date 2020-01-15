@@ -6,6 +6,8 @@ services:
         ports: 
             - "8081:8080"
         container_name: springproject_green
+        networks:
+            - webserver
 
 networks:
     webserver:
