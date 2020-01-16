@@ -1,0 +1,12 @@
+version: '3.7'
+
+services:
+    nginx:
+        build:
+            context: .
+            dockerfile: Dockerfile_nginx
+        image: bhsbhs235/nginx:0.1
+        #ports: 
+        #    - "80:80"
+        container_name: nginx_springproject
+        network_mode: "host"

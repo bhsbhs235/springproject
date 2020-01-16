@@ -2,17 +2,15 @@ version: '3.7'
 
 services:
     springproject:
+        build:
+            context: .
+            dockerfile: Dockerfile_springproject
+            args:
+                WAR_FILE: build/libs/springproject-0.0.1-SNAPSHOT.war
         image: bhsbhs235/springproject:0.1
         ports: 
             - "8082:8080"
         container_name: springproject_blue
-        networks:
-            - webserver
-
-networks:
-    webserver:
-        external: true
-        name: web_bridge
 
 
 
