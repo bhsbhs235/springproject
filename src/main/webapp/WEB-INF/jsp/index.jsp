@@ -8,8 +8,7 @@
 <body> 
     <img src="resources/img/welcome.jpg">
     <p>docker-compose를 이용한 무중단 배포 성공!!</p>
-    <p>투썸플레이스</p>
-    <p> host로 네트워크 연결</p>
+    <p>Springproject 정상작동 확인</p>
     <span id="date"></span>
 </body>
 <script type="text/javascript">
